@@ -1,0 +1,18 @@
+a=float(input ('enter first side:'))
+b=float(input('enter second side:'))
+c=float(input('enter third side:'))
+s=(a+b+c)/2 
+print('semi perimeter:', s)
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print('area of the triangle:',area)
+
+Output:
+ enter first side:
+4
+enter second side:
+6
+enter third side:
+7
+semi perimeter: 8.5
+area of the triangle: 11.976539567003485
+
